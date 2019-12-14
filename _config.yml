@@ -1,16 +1,16 @@
-author: Dong Yuanxin
+author: Michael Lee
 
-keywords: Hexo, Theme-AD
+keywords: JAVA,Spring,Docker
 
-description: 董沅鑫的小站
+description: Micheal 的小站
 
 # 导航栏头部名称
-nav_name: GODBMW
+nav_name: LIRX
 
 # 导航栏座右铭
-motto: "安静写些东西"
+motto: "每天一点点进步"
 
-github: "https://github.com/dongyuanxin/"
+github: "https://github.com/McLeeX/"
 
 # 站点图标和APP图标
 favicon: 
@@ -34,18 +34,18 @@ mathjax: true
 
 copyright:
   enable: true
-  author: "董沅鑫"
+  author: "Michael Lee"
   show_link: true
   more: '版权声明: 本博客所有文章除特别声明外, 均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议. 转载请注明出处!'
 
 # 建站时间. 格式：YYYY-MM-DD
-start_time: "2018-02-10"
+start_time: "2019-12-14"
 
 # 如何开启 评论&统计 插件：https://godbmw.com/passages/2018-11-15-theme-bmw-docs-zh/
 # 请申请自己的 appid 和 appkey，并且替换下面的 appid 和 appkey
 leancloud:
-  appid: Hyq9wkH495DgNHWhDQCOfQSp-gzGzoHsz # 填写您的appid
-  appkey: WaR7nrzhliHj9aVwdQzkdlGd # 填写您的appkey
+  appid: YDyjuoYMfdmcg01VvxFiF5I3-gzGzoHsz # 填写您的appid
+  appkey: 7IVoV3MgslroCh9R3RegAC6K # 填写您的appkey
   comment: true # 是否开启评论系统
   count: true # 是否开启文章统计
 
@@ -85,13 +85,13 @@ analytics:
     id: 
 
 # 打赏图片
-reward:
-  -
-    src: /images/wechat.png
-    alt: "WeChat"
-  -
-    src: /images/alipay.png
-    alt: "AliPay"
+#reward:
+#  -
+#    src: /images/wechat.png
+#    alt: "WeChat"
+#  -
+#    src: /images/alipay.png
+#    alt: "AliPay"
 
 # 第三方库的CDN地址
 # 请根据情况自行决定是否替换为国内CDN
@@ -116,42 +116,18 @@ nav:
     name: "分类"
     path: "/categories/"
   -
-    name: "友链"
-    path: "/friends/"
-  -
     name: "关于"
     path: "/about/"
 
 footer:
   - 
-    title: "博客推荐"
+    title: "欢迎访问"
     children:
       - 
-        name: "GodBMW"
-        path: "https://godbmw.com/"
-      - 
-        name: "阮一峰的个人网站"
-        path: "http://ruanyifeng.com/"
-  -
-    title: "系列教程"
-    children:
-      -
-        name: "webpack4系列教程"
-        path: "https://godbmw.com/categories/webpack4%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/"
-      -
-        name: "设计模式手册"
-        path: "https://godbmw.com/design-patterns/"
-  -
-    title: "抓到我"
-    children: 
-      -
-        name: "掘金"
-        path: "https://juejin.im/user/5b91fcf06fb9a05d3c7fd4a5"
-      -
-        name: "思否"
-        path: "https://segmentfault.com/"
+        name: "Michael Lee 的个人网站"
+        path: "https://lirx.me/"
 
-footer_contact: "Email: yuanxin.me@gmail.com"
+footer_contact: "Email: lirx513@gmail.com"
 
 friends_avatar_cdn: 
 friends:
