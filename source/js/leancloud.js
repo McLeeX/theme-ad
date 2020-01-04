@@ -63,6 +63,9 @@
 
     let Counter = AV.Object.extend('Counter');
     let counter = new Counter();
+    if(returnCitySN){
+      counter.set('city_sn',JSON.stringify(returnCitySN));
+    }
     counter.set('visit_time', new Date().getTime().toString());
     counter.set('user_agent', window.navigator.userAgent);
     counter.set('identity_path', pathname);
